@@ -1,0 +1,5 @@
+/*! @import */
+/* Due to a bug in Chromium, it's important that you include the weird ! @import  comment to avoid performance issues in Chrome DevTools during development. This is already fixed in Canary but hasn't been released generally yet. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
