@@ -1,16 +1,18 @@
 <template>
     <section>
-        <HelloWorld msg="Sam Arbid" />
+        <!-- <HelloWorld msg="Sam Arbid" /> -->
+        <cv-header />
     </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { HelloWorld, CvHeader } from './components'
 
 export default {
     name: 'App',
     components: {
         HelloWorld,
+        CvHeader,
     },
 }
 </script>
