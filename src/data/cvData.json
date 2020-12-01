@@ -88,10 +88,10 @@
     }
 ],
 "skills" : {
-    "programing languages": ["JavaScript(ES6)","TypeScript","php","CSS","Sass","Python"],
-    "Libraries and Frameworks": ["jQuery","vue","nuxt", "laravel", "react", "Nodejs",
+    "programingLanguages": ["JavaScript(ES6)","TypeScript","php","CSS","Sass","Python"],
+    "LibrariesandFrameworks": ["jQuery","vue","nuxt", "laravel", "react", "Nodejs",
     "express", "tailwindcss","bootstrap", "material UI", "blade", "etc"],
-    "Tools & Platforms": ["Git", "Webpack", "Netlify", "mongoDB", "compass","Insomnia", "Contentful", "Craft", "Wordpress","puTTy", "cmder","Docker", "Firebase", "Postman"],
+    "platforms": ["Git", "Webpack", "Netlify", "mongoDB", "compass","Insomnia", "Contentful", "Craft", "Wordpress","puTTy", "cmder","Docker", "Firebase", "Postman"],
     "Design": ["figma", "adobe xd","illustrator", "blender 3d", "3dsMax", "vscode", "Photoshop", "after effects"]
 },
 "Education": [
