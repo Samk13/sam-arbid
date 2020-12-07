@@ -1,6 +1,6 @@
 <template>
     <!-- Skills -->
-    <div>
+    <div v-if="data.skills">
         <div class="text-4xl font-roboto font-black" id="right">Skills</div>
         <div>
             <h1 class="text-xl font-bold">Programing lamguages</h1>
@@ -14,7 +14,7 @@
         <div>
             <h1 class="text-xl font-bold">Libraries and Frameworks</h1>
             <ul
-                v-for="(framework, index) in data.skills.LibrariesandFrameworks"
+                v-for="(framework, index) in data.skills.LibrariesFrameworks"
                 :key="index"
             >
                 <li>{{ framework }}</li>

@@ -1,7 +1,7 @@
 <template>
     <section class="font-roboto font-black w-1/3" id="left">
         <h1>Relevant Experience</h1>
-        <div v-for="xp in data.relevantExperience" :key="xp.id">
+        <div v-for="xp in data" :key="xp.id">
             <div id="capcito">
                 <h2>
                     <span>{{ xp.title }} @ {{ xp.place }}</span>

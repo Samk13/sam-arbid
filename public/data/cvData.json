@@ -1,0 +1,114 @@
+{
+    "name": "Sam Arbid",
+    "title": "Software Engineer",
+    "address": "Hammarby sjöstad/Sthlm/SE",
+    "email": "samarbid13@gmail.com",
+    "github": "github.com/Samk13",
+    "mobile": "+46720342482",
+"relevantExperience": [
+    {
+        "id": "capcitoSoftwareEngineer",
+        "title": "Software Engineer",
+        "place": "Capcito",
+        "startDate": "december 2019",
+        "endDate": "present",
+        "location": "Stockholm, SE",
+        "description": [
+            "Write clean, performant and robust code for a diverse array of client and internal projects",
+            "Work with a variety of different languages, frameworks, and content management systems such as JavaScript, TypeScript, PHP, Laravel, Vue3, tailwindcss, composition-api, git, Jira, etc.",
+            "Experience developing a complete digital interactive experience is an asset that sets me apart from both my peers and peers in my industry."]
+    },
+    {
+        "id": "FirefighterSkaraborg",
+        "title": "Firefighter",
+        "place": "Räddningstjänsten skaraborg",
+        "startDate": "jan 2018",
+        "endDate": "november 2019",
+        "location": "Karlsborg, SE",
+        "description": [
+            "After my  career as a VFX artist and coming close to the oscar prize I looked for exploring a new career that is more useful for society. In the end i decided  coding is the best way of doing this, but before that while I was living in the countryside, I served as a part time firefighter in Karlsborg. At the same time I got certified at Lernia as carpenter and worked with swedishmodules in vara until I moved to the capital stockholm."
+        ]
+    },
+    {
+        "id":"MotiongraphicsFilmGate",
+        "title": "Motion graphics & compositor",
+        "place": "FilmGate",
+        "startDate": "July 2017",
+        "endDate": "Dec 2017",
+        "location": "Göteborg, SE",
+        "description": [
+            "Developed and shipped vfx shots for many movies  using nuke and blender 3d Built and shipped the vfx shots from stabilizing, 3d tracking, rotoscoping, color correction, and special effects."
+        ]
+    },
+    {
+        "id":"StudioDeveloperDuppFilm",
+        "title": "Studio Developer",
+        "place": "DuppFilm",
+        "startDate": "April 2016",
+        "endDate": " jan 2018",
+        "location": "Karlsborg, SE",
+        "description": [
+            "Worked with a team of three designers to build and test media production App that help organize the work between artists and directors, similar to f-track app. Helped solidify a brand direction for Dupp to span across media, 3D , and web Interfaced with clients on a weekly basis, providing technological expertise and knowledge",
+            "create engaging animation and 3d modeling for many movies like The SquarE (nominated for the oscar prise in 2018 ), Bloomstertid nu kommer and more"
+        ]
+    },
+    {
+        "id":"KitchenIdasBrygga",
+        "title": "Kitchen assisstant",
+        "place": "IdasBrygga",
+        "startDate": "Mars 2015",
+        "endDate": "April 2016",
+        "location": "Karlsborg, SE",
+        "description": [
+            "After arriving in Sweden in a couple months I got a job in this restaurant as result being active in the municipality and helping with organizing the singing festival allsång and bringing new ideas"
+        ]
+    },
+    {
+        "id":"SAPIproductOwner",
+        "title": "product owner",
+        "place": "SAPI",
+        "startDate": "July 2011",
+        "endDate": "Nov 2014",
+        "location": "damascus, SY",
+        "description": [
+            "Engineered and maintained features using jquery, html, javaScript, and CSS Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station make sure that results of our team is meeting the requirements."
+        ]
+    },
+    {
+        "id":"CueTechnologist",
+        "title": "Creative Technologist Co-op",
+        "place": "Cue production SY",
+        "startDate": "July 2013",
+        "endDate": "Nov 2014",
+        "location": "damascus, SY",
+        "description": [
+            "Developed and maintained design for in-house and client websites primarily using HTML, CSS,Sass, JavaScript, and jQuery",
+            "Tested sites in various browsers and devices to ensure cross-browser compatibility and mobile responsiveness"
+        ]
+    }
+],
+"skills" : {
+    "programingLanguages": ["JavaScript-ES6","TypeScript","php","CSS","Sass","Python"],
+    "LibrariesFrameworks": ["jQuery","vue","nuxt", "laravel", "react", "Nodejs",
+    "express", "tailwindcss","bootstrap", "material UI", "blade", "etc"],
+    "platforms": ["Git", "Webpack", "Netlify", "mongoDB", "compass","Insomnia", "Contentful", "Craft", "Wordpress","puTTy", "cmder","Docker", "Firebase", "Postman"],
+    "Design": ["figma", "adobe xd","illustrator", "blender 3d", "3dsMax", "vscode", "Photoshop", "after effects"]
+},
+"Education": [
+    {
+        "place": "Damascus University",
+        "startDate": "2000",
+        "endDate": "2005",
+        "location": "Damascus, SY",
+        "description": "Bachelor of Science in Information Science Human Interaction in literature  & Experience Design"
+    },
+    {
+        "place": "summer Study",
+        "startDate": "Jan 2019",
+        "endDate": "Jan 2020",
+        "location": "Stockholm, SE",
+        "description": "Freecodecamp certifications in responsive web design, Javascript Javascript Algorithms And Data Structures and Front End Libraries"
+    }
+],
+"Interests": ["cooking", "swimming", "traveling", "video games", "SPACE TECHNOLOGY"]
+}
