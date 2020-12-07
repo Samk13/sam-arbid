@@ -1,57 +1,91 @@
 <template>
     <!-- Skills -->
-    <div>
-        <div class="text-4xl font-roboto font-black" id="right">Skills</div>
-        <div>
-            <h1 class="text-xl font-bold">Programing lamguages</h1>
-            <ul
+    <div v-if="data.skills" class="ml-3 space-y-4">
+        <div class="text-4xl font-black" id="right">Skills</div>
+        <div class="">
+            <h1 class="text-xl font-bold text-gray-400">
+                Programing languages
+            </h1>
+            <div
                 v-for="(lang, index) in data.skills.programingLanguages"
                 :key="index"
+                class="inline-block mt-2"
             >
-                <li>{{ lang }}</li>
-            </ul>
+                <span class="mr-1 border rounded-lg px-2 py-1 text-xs">{{
+                    lang
+                }}</span>
+            </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold">Libraries and Frameworks</h1>
-            <ul
-                v-for="(framework, index) in data.skills.LibrariesandFrameworks"
+            <h1 class="text-xl font-bold text-gray-400">
+                Libraries and Frameworks
+            </h1>
+            <div
+                v-for="(framework, index) in data.skills.LibrariesFrameworks"
                 :key="index"
+                class="inline-block mt-2"
             >
-                <li>{{ framework }}</li>
-            </ul>
+                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                    {{ framework }}
+                </div>
+            </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold">Tools & Platforms</h1>
-            <ul v-for="(plat, index) in data.skills.platforms" :key="index">
-                <li>{{ plat }}</li>
-            </ul>
+            <h1 class="text-xl font-bold text-gray-400">Tools & Platforms</h1>
+            <div
+                v-for="(plat, index) in data.skills.platforms"
+                :key="index"
+                class="inline-block mt-2"
+            >
+                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                    {{ plat }}
+                </div>
+            </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold">Design</h1>
-            <ul v-for="(design, index) in data.skills.Design" :key="index">
-                <li>{{ design }}</li>
-            </ul>
+            <h1 class="text-xl font-bold text-gray-400">Design</h1>
+            <div
+                v-for="(design, index) in data.skills.Design"
+                :key="index"
+                class="inline-block mt-2"
+            >
+                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                    {{ design }}
+                </div>
+            </div>
         </div>
         <!-- Education -->
         <div>
             <h1 class="text-xl font-bold">Education</h1>
-            <ul v-for="(educ, index) in data.Education" :key="index">
-                <li>
-                    <span>{{ educ.place }}</span>
-                    <span>{{ educ.startDate }}</span>
-                    <span>{{ educ.endDate }}</span>
-                    <span>{{ educ.location }}</span>
-                    <p>{{ educ.description }}</p>
-                </li>
-            </ul>
+            <div
+                v-for="(educ, index) in data.Education"
+                :key="index"
+                class="inline-block"
+            >
+                <div class="mr-2">
+                    <span class="font-bold mr-2">{{ educ.place }}</span>
+                    <div class="inline-block">
+                        <span class="mr-2">{{ educ.startDate }}</span>
+                        <span>{{ educ.endDate }}</span>
+                    </div>
+                    <span class="text-xs">{{ educ.location }}</span>
+                    <p class="text-xs">{{ educ.description }}</p>
+                </div>
+            </div>
         </div>
         <div>
             <h1 class="text-xl font-bold">Intrest</h1>
-            <ul v-for="(intr, index) in data.Interests" :key="index">
-                <li>
-                    <span>{{ intr }}</span>
-                </li>
-            </ul>
+            <div
+                v-for="(intr, index) in data.Interests"
+                :key="index"
+                class="inline-block"
+            >
+                <div class="mr-2 mt-2">
+                    <span class="mr-1 border rounded-lg px-2 py-1 text-xs">{{
+                        intr
+                    }}</span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
