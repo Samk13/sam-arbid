@@ -7,6 +7,17 @@
     "mobile": "+46720342482",
 "relevantExperience": [
     {
+        "id": "RefunderSoftwareEngineer",
+        "title": "Software Engineer",
+        "place": "Refunder",
+        "startDate": "sep 2020",
+        "endDate": "2020",
+        "location": "Stockholm, SE",
+        "description": [
+            "Refactor Legacy code, and writing robust code for a diverse array of client and internal projects",
+            "Work with a variety of old different technologies, frameworks, and content management systems such as codeigniter 2, TypeScript, PHP, Laravel, Vue, tailwindcss 0.7, twig, git, Jira, etc."]
+    },
+    {
         "id": "capcitoSoftwareEngineer",
         "title": "Software Engineer",
         "place": "Capcito",
@@ -103,12 +114,12 @@
         "description": "Bachelor of Science in Information Science Human Interaction in literature  & Experience Design"
     },
     {
-        "place": "summer Study",
+        "place": "FCC",
         "startDate": "Jan 2019",
         "endDate": "Jan 2020",
         "location": "Stockholm, SE",
         "description": "Freecodecamp certifications in responsive web design, Javascript Javascript Algorithms And Data Structures and Front End Libraries"
     }
 ],
-"Interests": ["cooking", "swimming", "traveling", "video games", "SPACE TECHNOLOGY"]
+"Interests": ["cooking", "swimming", "traveling", "video games", "space technology"]
 }

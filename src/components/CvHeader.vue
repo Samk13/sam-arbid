@@ -1,7 +1,7 @@
 <template>
-    <div class="py-5">
+    <div class="py-5 mt-10">
         <div class="mb-5">
-            <h1 class="text-5xl font-black text-green-600">
+            <h1 class="text-5xl font-black text-green-400">
                 {{ data.name }}
             </h1>
             <hr class="border-1" />

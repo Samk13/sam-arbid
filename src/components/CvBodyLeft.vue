@@ -1,15 +1,19 @@
 <template>
-    <section class="font-roboto font-black w-1/3" id="left">
-        <h1>Relevant Experience</h1>
+    <section class="w-1/3" id="left">
+        <h1 class="font-black text-4xl">Relevant Experience</h1>
         <div v-for="xp in data" :key="xp.id">
             <div id="capcito">
-                <h2>
+                <h2 class="text-xl font-bold">
                     <span>{{ xp.title }} @ {{ xp.place }}</span>
                 </h2>
-                <h2>
+                <h2 class="text-gray-500 text-xs">
                     <span>{{ xp.startDate }} - {{ xp.endDate }}</span>
                 </h2>
-                <ul v-for="(desc, index) in xp.description" :key="index">
+                <ul
+                    v-for="(desc, index) in xp.description"
+                    :key="index"
+                    class="my-3 text-xs"
+                >
                     <li>
                         {{ desc }}
                     </li>
