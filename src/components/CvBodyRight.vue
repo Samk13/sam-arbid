@@ -1,9 +1,9 @@
 <template>
     <!-- Skills -->
     <div v-if="data.skills" class="ml-3 space-y-4">
-        <div class="text-4xl font-black" id="right">Skills</div>
+        <div class="text-3xl font-black" id="right">Skills</div>
         <div class="">
-            <h1 class="text-xl font-bold text-gray-400">
+            <h1 class="text-xl font-bold text-gray-400 capitalize">
                 Programing languages
             </h1>
             <div
@@ -11,13 +11,14 @@
                 :key="index"
                 class="inline-block mt-2"
             >
-                <span class="mr-1 border rounded-lg px-2 py-1 text-xs">{{
-                    lang
-                }}</span>
+                <span
+                    class="mr-1 border rounded-lg px-2 py-1 text-xs capitalize"
+                    >{{ lang }}</span
+                >
             </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold text-gray-400">
+            <h1 class="text-xl font-bold text-gray-400 capitalize">
                 Libraries and Frameworks
             </h1>
             <div
@@ -25,51 +26,60 @@
                 :key="index"
                 class="inline-block mt-2"
             >
-                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                <div
+                    class="mr-1 border rounded-lg px-2 py-1 text-xs capitalize"
+                >
                     {{ framework }}
                 </div>
             </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold text-gray-400">Tools & Platforms</h1>
+            <h1 class="text-xl font-bold text-gray-400 capitalize">
+                Tools & Platforms
+            </h1>
             <div
                 v-for="(plat, index) in data.skills.platforms"
                 :key="index"
                 class="inline-block mt-2"
             >
-                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                <div
+                    class="mr-1 border rounded-lg px-2 py-1 text-xs capitalize"
+                >
                     {{ plat }}
                 </div>
             </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold text-gray-400">Design</h1>
+            <h1 class="text-xl font-bold text-gray-400 capitalize">Design</h1>
             <div
                 v-for="(design, index) in data.skills.Design"
                 :key="index"
                 class="inline-block mt-2"
             >
-                <div class="mr-1 border rounded-lg px-2 py-1 text-xs">
+                <div
+                    class="mr-1 border rounded-lg px-2 py-1 text-xs capitalize"
+                >
                     {{ design }}
                 </div>
             </div>
         </div>
         <!-- Education -->
         <div>
-            <h1 class="text-xl font-bold">Education</h1>
+            <h1 class="text-3xl font-bold mb-2 capitalize">Education</h1>
             <div
                 v-for="(educ, index) in data.Education"
                 :key="index"
                 class="inline-block"
             >
                 <div class="mr-2">
-                    <span class="font-bold mr-2">{{ educ.place }}</span>
-                    <div class="inline-block">
-                        <span class="mr-2">{{ educ.startDate }}</span>
-                        <span>{{ educ.endDate }}</span>
+                    <div class="font-bold block mb-0">{{ educ.place }}</div>
+                    <div>
+                        <div class="mb-2 text-gray-500 text-xs">
+                            {{ educ.startDate }} - {{ educ.endDate }} /
+                            {{ educ.location }}
+                        </div>
                     </div>
-                    <span class="text-xs">{{ educ.location }}</span>
-                    <p class="text-xs">{{ educ.description }}</p>
+                    <p class="text-xs mb-3">{{ educ.description }}</p>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@
         "title": "Software Engineer",
         "place": "Capcito",
         "startDate": "december 2019",
-        "endDate": "present",
+        "endDate": "july 2020",
         "location": "Stockholm, SE",
         "description": [
             "Write clean, performant and robust code for a diverse array of client and internal projects",
@@ -99,22 +99,22 @@
     }
 ],
 "skills" : {
-    "programingLanguages": ["JavaScript-ES6","TypeScript","php","CSS","Sass","Python"],
-    "LibrariesFrameworks": ["jQuery","vue","nuxt", "laravel", "react", "Nodejs",
-    "express", "tailwindcss","bootstrap", "material UI", "blade", "etc"],
+    "programingLanguages": ["JavaScript-ES6","TypeScript","PHP","CSS","Sass","Python"],
+    "LibrariesFrameworks": ["jQuery","Vue","Nuxt", "Laravel", "React", "Nodejs",
+    "Express", "Tailwindcss","Bootstrap", "Material UI", "Blade", "etc"],
     "platforms": ["Git", "Webpack", "Netlify", "mongoDB", "compass","Insomnia", "Contentful", "Craft", "Wordpress","puTTy", "cmder","Docker", "Firebase", "Postman"],
     "Design": ["figma", "adobe xd","illustrator", "blender 3d", "3dsMax", "vscode", "Photoshop", "after effects"]
 },
 "Education": [
     {
         "place": "Damascus University",
-        "startDate": "2000",
-        "endDate": "2005",
+        "startDate": "jan 2000",
+        "endDate": "jan 2005",
         "location": "Damascus, SY",
         "description": "Bachelor of Science in Information Science Human Interaction in literature  & Experience Design"
     },
     {
-        "place": "FCC",
+        "place": "FCC-freeCodeCamp",
         "startDate": "Jan 2019",
         "endDate": "Jan 2020",
         "location": "Stockholm, SE",

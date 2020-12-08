@@ -1,5 +1,6 @@
 <template>
-    <div class="container m-auto text-gray-900 font-roboto">
+    <div class="container mx-auto text-gray-900 font-roboto">
+        <!-- <toggle-component class="mt-4" /> -->
         <cv-header :data="data" class="w-full" />
         <div class="flex">
             <cv-body-left :data="data.relevantExperience" class="w-2/3" />
@@ -9,7 +10,13 @@
 </template>
 
 <script>
-import { HelloWorld, CvHeader, CvBodyLeft, CvBodyRight } from './components'
+import {
+    HelloWorld,
+    CvHeader,
+    CvBodyLeft,
+    CvBodyRight,
+    // ToggleComponent,
+} from './components'
 import { ref } from 'vue'
 export default {
     name: 'App',
@@ -18,6 +25,7 @@ export default {
         CvHeader,
         CvBodyLeft,
         CvBodyRight,
+        // ToggleComponent,
     },
     setup() {
         const data = ref({})
