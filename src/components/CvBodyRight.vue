@@ -84,7 +84,7 @@
             </div>
         </div>
         <div>
-            <h1 class="text-xl font-bold">Intrest</h1>
+            <h1 class="text-3xl font-bold mb-2 capitalize">Intrest</h1>
             <div
                 v-for="(intr, index) in data.Interests"
                 :key="index"
